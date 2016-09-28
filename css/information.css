@@ -1,0 +1,197 @@
+*{
+	font-family: "Times New Roman", Times, serif;
+}
+
+/* Introduction*/
+.head{
+	padding-left: 30px;
+	padding-right: 30px;
+	background: url(../images/background.jpg) no-repeat center center fixed;
+}
+
+.intro{
+	font-size: 30px;
+	color: #fff;
+	text-align: center;
+}
+
+.bold{
+	color: #cc9900;
+	font-size: 60px;
+	text-align: center;
+}
+
+.iconImage{
+	width: 40px;
+	height: 40px;
+	float: right;
+	margin: 0px 10px 10px 0px;
+}
+
+.yellow{
+	color: #cc9900;
+}
+
+.contents{
+	padding:15px;
+}
+
+/* background explaination*/
+.background{
+	word-wrap:break-all;
+}
+
+.iconCenter{
+	text-align: center;
+}
+
+#caption{
+	color: #fff;
+	background: url(../images/background.jpg) no-repeat center center fixed;
+	display: none;
+	position: relative;
+}
+
+#caption label{
+	margin-left: 5px;
+	font-size: 20px;
+	color: #cc9900;
+}
+
+#caption p{
+	margin-left: 5px;
+	margin-right: 5px;
+	font-size: 15px;
+	color: #fff;
+}
+
+.imgCenter {
+  position: relative; 
+  overflow: hidden;
+  text-align: center;
+}
+
+.imgCenter ul {
+  position: relative;
+  left: 50%;
+  float: left;
+}
+
+.imgCenter ul li {
+  position: relative;
+  left: -50%;
+  float: left;
+  list-style: none;
+  padding: 10px;
+}
+
+/* Work experience and education*/
+table{
+	width:100%;
+	table-layout: fixed;
+	word-break: break-word;
+}
+
+td{
+	font-style: italic;
+	font-weight: bold;
+}
+
+/* spider graph */
+#chartdiv {
+	width: 100%;
+	height: 300px;
+}
+
+/* submit button */
+#submitBtn{
+	width: 100px;
+	height: 100px;
+	background-color: #0B0A54;
+	border: solid 1px #0B0A54;
+	box-shadow: 10px 10px 5px #888888;
+	border-radius: 50%;
+	font-size: 20px;
+	color:white;
+}
+
+
+/*--------------------------*/
+/* windows size is smaller	*/
+/*--------------------------*/
+/* refine the tablet size */
+@media only screen and (max-width: 768px){
+
+	.intro{
+		font-size: 20px;
+	}
+
+	.bold{
+		font-size: 40px;
+	}
+
+	.iconImage{
+		width: 30px;
+		height: 30px;
+	}
+
+	/* submit button (contact page) */
+	#submitBtn{
+		width: 100%;
+		height: 100%;
+		font-size:20px;
+		margin-top: 50px;
+		border-radius: 30px;
+		color:white;
+	}
+
+	/* my information on the right area */
+	.myInfo{
+		float:right;
+	}
+}
+
+@media only screen and (max-width: 480px){
+
+	.intro{
+		font-size: 20px;
+	}
+
+	.bold{
+		font-size: 30px;
+	}
+
+	figure img{
+		width: 70%;
+		height: 70%;
+	}
+
+	figure figcaption, a, label{
+		font-size: 5px;
+	}
+
+	.imgCenter ul li{
+		padding: 1px;
+	}
+
+	.iconImage{
+		width: 30px;
+		height: 30px;
+	}
+
+	#caption label{
+		margin-left: 1px;
+		font-size: 15px;
+	}
+
+	#caption p{
+		margin-left: 2px;
+		margin-right: 3px;
+		font-size: 10px;
+	}
+
+	.contents{
+		font-size: 10px;
+	}
+
+}

@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Portfolio</title>
+
+	<!-- css -->
+	<link rel="stylesheet" type="text/css" href="css/information.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+
+	<!-- boot strap set up -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	
+	<!-- jQuery set up -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+	<!-- spider graph js -->
+	<script src="js/amcharts.js"></script>
+	<script src="js/radar.js"></script>
+	<script src="js/light.js"></script>
+
+	<!-- scroll animation -->
+	<script src="js/jquery.aniview.js"></script>
+	<script src="js/jquery.aniview.min.js"></script>
+
+	<!-- my javascript -->
+	<script type="text/javascript" src="javascript/information.js"></script>
+	<script type="text/javascript" src="javascript/informationSkills.js"></script>
+
+</head>
+<body>
+	<div class="head">
+
+		<!-- introduction -->
+		<div class="row"><br/><br/>	
+			<p class="intro">
+				Hi, my name is <b class="bold">Hiroshi</b>,<br/>
+				and I am a <b class="bold">full-stack</b> developer.</p>
+		</div>
+
+		<!-- icons -->
+		<div class="row">
+
+			<!-- social -->	
+			<a href="https://ca.linkedin.com/in/hiroshitokutomi">
+				<img id="linkedin" src="images/linkedin_white.png" class="pics sample4 iconImage"
+				onmouseover="this.src='images/linkedin_yellow.png'" onmouseout="this.src='images/linkedin_white.png'" /></a>
+			<a href="https://github.com/HiroshiDeveloper">
+				<img id="github" src="images/github_white.png" class="pics sample4 iconImage"
+				onmouseover="this.src='images/github_yellow.png'" onmouseout="this.src='images/github_white.png'"/></a>
+			<a href="https://medium.com/@hiroshi_developer">
+				<img id="blog" src="images/blog_white.png" class="pics sample4 iconImage"
+				onmouseover="this.src='images/blog_yellow.png'" onmouseout="this.src='images/blog_white.png'"/></a>
+			<a href="#contact">
+				<img id="blog" src="images/mail_white.png" class="pics sample4 iconImage"
+				onmouseover="this.src='images/mail_yellow.png'" onmouseout="this.src='images/mail_white.png'"/></a>
+		</div>
+	</div>
+
+	<div class="contents">		
+		<h2 class="aniview" av-animation="slideInDown">About Me</h2><br/>
+		<div class="row smallWindow">
+			<div class="col-sm-7">
+				
+				<!-- work experience -->
+				<div class="aniview reallyslow" av-animation="fadeIn">
+					<label class="yellow">Work Experience</label>					
+					<table class="table table-striped">
+						<thead>
+							<tr>
+								<th><i class="profile title">Content</i></th>
+								<th><i class="profile title">Detail</i></th>
+							</tr>
+						</thead>
+						<tbody class="contents">
+							<tr>
+								<td>Twitter Analysis System<br/>&nbsp;- HTML, JavaScript, CSS, Python</td>
+								<td>&nbsp;Created server side applications using <b class="yellow">HTML, CSS, JavaScript and Python</b> to collect tweets, analyze them and display the result on a web page.</td>
+							</tr>
+							<tr>
+								<td>Database Design<br/>&nbsp;- MySQL, PostgreSQL</td>
+								<td>&nbsp;Designed a <b class="yellow">MySQL</b> database to store the necessary information. Converted the <b class="yellow">MySQL</b> database into a <b class="yellow">PostgreSQL</b> database.</td>
+							</tr>
+							<tr>
+								<td>CSV Handling Program<br/>&nbsp;- C</td>
+								<td>&nbsp;Used <b class="yellow">C</b> to create a CSV processing program as part of an in-house training program.</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+
+				<!-- education -->
+				<div class="aniview reallyslow" av-animation="fadeIn">
+					<label class="yellow">Education</label>
+					<ul>
+						<li>Aoyamagakuin University - Math&Physics - Bachelor - Japan</li>
+						<li>Cornerstone College - Web&Mobile App - Diploma - Canada<br/><b class="yellow">&nbsp; * GPA : 4.0</b></li>
+						<table class="table table-striped">
+							<thead>
+								<tr>
+									<th><i class="profile title">Course</i></th>
+									<th><i class="profile title">Language</i></th>
+								</tr>
+							</thead>
+							<tbody class="contents">
+								<tr>
+									<td>Web Programming</td>
+									<td>HTML, CSS, JavaScript</td>
+								</tr>
+								<tr>
+									<td>Cross Platform Development</td>
+									<td>C#</td>
+								</tr>
+								<tr>
+									<td>Web Design</td>
+									<td>Adobe Ilustrator, Adobe Photoshop</td>
+								</tr>
+								<tr>
+									<td><b class="yellow">Android App Development</b></td>
+									<td>Java</td>
+								</tr>
+								<tr>
+									<td><b class="yellow">iOS App Development</b></td>
+									<td>Objective C</td>
+								</tr>
+							</tbody>
+						</table>
+					</ul>					
+				</div>
+			</div>
+
+			<div class="col-sm-5">
+				<div id="chartdiv"></div><br/>
+				<div class="aniview reallyslow background" av-animation="fadeIn">
+					<p><b class="yellow">I have worked in Japan as a programmer for two years.</b> I specialize in server-side application development, and I have designed and maintained databases with MongoDB, MySQL and PostgreSQL. I can also program in C, HTML, JavaScript, CSS, Java and Objective C. In Vancouver, I improved my skills in HTML, JavaScript, CSS, PHP, Adobe Illustrator, Adobe Photoshop, C#, Java, Android application development and Objective C in Cornerstone college. <b class="yellow">In total, I have been programming for four years!</b>
+					</p>
+				</div>
+				<hr/>
+				<div class="aniview reallyslow background" av-animation="fadeIn">
+					<label class="yellow">Interest</label>
+					<ul>
+						<li><b class="yellow">Bitcoin, Ethereum</b></li>
+						<li>High Tech</li>
+						<li>Theatre</li>
+					</ul>
+				</div>
+			</div><br/><br/>
+		</div>	
+	</div>
+
+	<div class="contents">
+		<h2 class="aniview" av-animation="slideInDown">Products</h2><br/>
+		<div class="imgCenter">
+			<ul>
+				<li onmouseover="showCaption(0)" onmouseout="hideCaption()">
+					<figure><img src="images/beezybee.png"><figcaption>Beezybee</figcaption>
+					<a href="https://www.youtube.com/embed/NRvS5UqX2K4">youtube</a><br/>
+					<label>iOS</label>
+					</figure>
+				</li>
+				<li onmouseover="showCaption(1)" onmouseout="hideCaption()">
+					<figure><img src="images/comixgram.png"><figcaption>Comixgram</figcaption>
+					<a href="https://www.youtube.com/embed/7YZwFbkNVjk">youtube</a><br/>
+					<label>iOS</label>
+					</figure>
+				</li>
+				<li onmouseover="showCaption(2)" onmouseout="hideCaption()">
+					<figure><img src="images/twittermap.png"><figcaption>TwitterMap</figcaption>
+					<a href="https://www.youtube.com/embed/lA87lgynKBk">youtube</a><br/>
+					<label>Android</label>
+					</figure>
+				</li>
+				<li onmouseover="showCaption(3)" onmouseout="hideCaption()">
+					<figure><img src="images/battleGame.png"><figcaption>BattleGame</figcaption>
+					<a href="https://www.youtube.com/embed/vhcnpeVg2C4">youtube</a><br/>
+					<label>Android</label>
+					</figure>		
+				</li>
+				<li onmouseover="showCaption(4)" onmouseout="hideCaption()">
+					<figure><img src="images/battleship.png"><figcaption>BattleGame</figcaption>
+					<a href="https://www.youtube.com/embed/WujHRCfaCaU">youtube</a><br/>
+					<label>C</label>
+					</figure>
+				</li>	
+			</ul>
+		</div>
+
+		<div id="caption" class="aniview" av-animation="fadeInLeft">
+			<label></label>
+			<p></p>
+		</div>
+	</div>
+		
+	<div id="contact" class="contents">
+		<h2 class="aniview" av-animation="slideInDown">Contact Me</h2><br/>
+
+		<div class="container aniview" av-animation="fadeIn">
+			<!-- form information -->
+			<form action="http://formspree.io/hiroshi_tokutomi@yahoo.com" method="POST">
+	    	<label><h4>Name</h4></label>
+	    	<input name="name" type="text" class="form-control" id="name" placeholder="What's your name?"><br/>
+	    	<label><h4>Email</h4></label>
+	    	<input type="email" name="_replyto" class="form-control" placeholder="What's your e-mail?"><br/>
+	    	<label><h4>Message</h4></label>
+	    	<div class="row">
+	    		<div class="col-sm-10">
+	    			<textarea name="body" class="form-control" id="message" placeholder="Message"></textarea>
+	    		</div>
+	    		<div class="col-sm-2">
+	    			<input type="submit" value="Send" id="submitBtn"
+	    			onmouseover="changeBgColor('submitBtn')" onmouseout="changeBgColorBlack('submitBtn')">
+	    		</div>
+	    	</div><hr/>
+	    	</form>
+			
+			<!-- my information -->
+			<div class="row myInfo">
+			<div class="col-sm-7"></div>
+			<div class="col-sm-5">
+				<!-- Mail -->
+				<div class="row">
+					<div class="col-sm-3"><span class="glyphicon glyphicon-envelope"></span> Mail</div><div class="col-sm-9">&nbsp&nbsphiroshi_tokutomi@yahoo.com</div>
+				</div>
+				<!-- Tell -->
+				<div class="row">
+					<div class="col-sm-3"><span class="glyphicon glyphicon-phone"></span> Tell</div><div class="col-sm-9">&nbsp&nbsp604-842-3705</div>
+				</div>
+			<div/>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
