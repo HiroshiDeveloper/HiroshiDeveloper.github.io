@@ -21,6 +21,19 @@ $(window).resize(function(){
     }
 });
 
+$(function(){
+    $("li").hover(function(){
+        $(this).stop().animate({"opacity":"0.4"});
+        $(".jump")
+		.animate({top:"-10px"}, 200).animate({top:"-4px"}, 200) // first jump
+		.animate({top:"-7px"}, 100).animate({top:"-4px"}, 100) // second jump
+		.animate({top:"-6px"}, 100).animate({top:"-4px"}, 100);
+
+    },function(){
+        $(this).stop().animate({"opacity":"1"});
+    });
+});
+
 function changeBgColor(id){
     document.getElementById(id).style.backgroundColor = "#cc9900";
     document.getElementById(id).style.border = "#cc9900";
@@ -60,9 +73,10 @@ function showCaption(num){
 
 function hideCaption(){
 	// document.getElementById("caption").style.visibility = "hidden";
-	$("#caption").hide();
 	$("#caption p").text("");
 	$("#caption label").text("");
+	$("#caption").hide();
+
 }
 
 

@@ -9,11 +9,12 @@
 
 	<!-- boot strap set up -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 	
 	<!-- jQuery set up -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
 
 	<!-- spider graph js -->
 	<script src="js/amcharts.js"></script>
@@ -159,7 +160,7 @@
 					</figure>
 				</li>
 				<li onmouseover="showCaption(1)" onmouseout="hideCaption()">
-					<figure><img src="images/comixgram.png"><figcaption>Comixgram</figcaption>
+					<figure><img src="images/comixgram.png" class="jump"><figcaption>Comixgram</figcaption>
 					<a href="https://www.youtube.com/embed/7YZwFbkNVjk">youtube</a><br/>
 					<label>iOS</label>
 					</figure>
@@ -171,7 +172,7 @@
 					</figure>
 				</li>
 				<li onmouseover="showCaption(3)" onmouseout="hideCaption()">
-					<figure><img src="images/battlegame.png"><figcaption>BattleGame</figcaption>
+					<figure><img src="images/battleGame.png"><figcaption>BattleGame</figcaption>
 					<a href="https://www.youtube.com/embed/vhcnpeVg2C4">youtube</a><br/>
 					<label>Android</label>
 					</figure>		
@@ -185,7 +186,7 @@
 			</ul>
 		</div>
 
-		<div id="caption" class="aniview" av-animation="fadeInLeft">
+		<div id="caption" class="aniview" av-animation="fadeIn">
 			<label></label>
 			<p></p>
 		</div>
@@ -196,7 +197,7 @@
 
 		<div class="container aniview" av-animation="fadeIn">
 			<!-- form information -->
-			<form action="https://formspree.io/hiroshi_tokutomi@yahoo.com" method="POST">
+			<form action="http://formspree.io/hiroshi_tokutomi@yahoo.com" method="POST">
 	    	<label><h4>Name</h4></label>
 	    	<input name="name" type="text" class="form-control" id="name" placeholder="What's your name?"><br/>
 	    	<label><h4>Email</h4></label>
