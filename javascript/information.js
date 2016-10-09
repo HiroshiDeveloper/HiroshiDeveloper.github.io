@@ -70,7 +70,7 @@ function showCaption(num){
 			break;
 		case 5:
 			$("#caption label").text("SharingInfoSystem");
-			$("#caption p").text("The system allows users who are registered on the site to share opinions with each other.\nI designed and handled mySQL in Linux. You can see the code in Node.js on Github.");
+			$("#caption p").text("The system allows users who are registered on the site to share opinions with each other.\nI designed and handled MySQL in Linux. You can see the code in Node.js on Github.");
 			break;
 	}
 }
