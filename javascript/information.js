@@ -68,6 +68,10 @@ function showCaption(num){
 			$("#caption label").text("BattleShip");
 			$("#caption p").text("There are five types of ships: 1 monster(five sizes), 2 big(three sizes), 2 medium(two sizes) and 5 small(one size) ships. The objective is to destroy all ships within 50 turns!");
 			break;
+		case 5:
+			$("#caption label").text("SharingInfoSystem");
+			$("#caption p").text("The system allows users who are registered on the site to share opinions with each other.\nI designed and handled mySQL in Linux. You can see the code in Node.js on Github.");
+			break;
 	}
 }
 
