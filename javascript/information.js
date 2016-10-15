@@ -74,7 +74,7 @@ function showCaption(num){
 			break;
 		case 6:
 			$("#caption label").text("OrganizedTwitter");
-			$("#caption p").text("I organized a twitter-like app, through which users can tweet and check posts on. I used TwitterAPI with Angular.js. I explained this in detail on youtube. If you have further question, please check that out.");
+			$("#caption p").text("I organized a twitter-like app, through which users can tweet and check posts on. I used TwitterAPI with Angular.js. I explained this in detail on youtube. If you have further questions, please check that out.");
 			break;
 	}
 }
