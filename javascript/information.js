@@ -72,6 +72,10 @@ function showCaption(num){
 			$("#caption label").text("SharingInfoSystem");
 			$("#caption p").text("The system allows users who are registered on the site to share opinions with each other.\nI designed and handled MySQL in Linux. You can see the code in Node.js on Github.");
 			break;
+		case 5:
+			$("#caption label").text("OrganizedTwitter");
+			$("#caption p").text("I organized a twitter-like app, through which users can tweet and check posts on. I used TwitterAPI with Angular.js. I explained this in detail on youtube. If you have further question, please check that out.");
+			break;
 	}
 }
 
