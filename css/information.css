@@ -119,10 +119,20 @@ td{
 .box {
     background: -webkit-linear-gradient(top, #fff 0%, #f0f0f0 100%);
     background: linear-gradient(to bottom, #fff 0%, #f0f0f0 100%);
-    border-top: 4px solid #0B0A54;
     box-shadow: 0 -1px 0 rgba(255, 255, 255, 1) inset;
     margin: 2em 0;
     padding: 2em;
+    position: relative;
+}
+
+.box::after {
+    content: "";
+    border-color: #F5F3EB #fff #fff #F5F3EB;
+    border-style: solid;
+    border-width: 0 0 24px 24px;
+    bottom: 0;
+    position: absolute;
+    right: 0;
 }
 
 /*--------------------------*/
