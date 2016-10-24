@@ -127,7 +127,7 @@ td{
 
 .box::after {
     content: "";
-    border-color: #F5F3EB #fff #fff #F5F3EB;
+    border-color: #E6E6E8 #fff #fff #E6E6E8;
     border-style: solid;
     border-width: 0 0 24px 24px;
     bottom: 0;
