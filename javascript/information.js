@@ -76,6 +76,10 @@ function showCaption(num){
 			$("#caption label").text("OrganizedTwitter");
 			$("#caption p").text("I organized a twitter-like app, through which users can tweet and check posts on. I used TwitterAPI with Angular.js. I explained this in detail on youtube. If you have further questions, please check that out.");
 			break;
+		case 7:
+			$("#caption label").text("SearchingSystem");
+			$("#caption p").text("This is a web application for saving favorite places. Users can add places where they are at using GPS, and they check the favorite places later. I made this application using Node.js and MongoDB.");
+			break;
 	}
 }
 
