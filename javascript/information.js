@@ -40,8 +40,8 @@ function changeBgColor(id){
 }
 
 function changeBgColorBlack(id){
-    document.getElementById(id).style.backgroundColor = "#0B0A54";
-    document.getElementById(id).style.border = "#0B0A54";
+    document.getElementById(id).style.backgroundColor = "#8F8F8F";
+    document.getElementById(id).style.border = "#8F8F8F";
 }
 
 function showCaption(num){

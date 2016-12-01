@@ -70,8 +70,8 @@ var chart = AmCharts.makeChart( "chartdiv", {
 	    	"bullet": "round",
 	    	"fillAlphas": 0.3,
 	    	"valueField": "litres",
-	    	"fillColors": "#0B0A54",
-	    	"lineColor": "#0B0A54",
+	    	"fillColors": "#8F8F8F",
+	    	"lineColor": "#8F8F8F",
 	  	} ],
 	"categoryField": "country",
 	"export": {
