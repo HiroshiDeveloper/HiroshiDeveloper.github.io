@@ -28,7 +28,7 @@
 	<script type="text/javascript" src="javascript/informationSkills.js"></script>
 
 </head>
-<body>
+<body class="container">
 	<div class="head">
 
 		<!-- introduction -->
@@ -166,7 +166,7 @@
 			</div>
 
 			<div class="col-sm-5">
-				<div id="chartdiv"></div><br/>
+				<div class="aniview" id="chartdiv" av-animation="fadeIn"></div><br/>
 				<div class="box">
 					<div class="aniview reallyslow background" av-animation="fadeIn">
 						<p><b class="yellow">I have worked in Japan as a programmer for two years.</b> I specialize in server-side application development, and I have designed and maintained databases with MongoDB, MySQL and PostgreSQL. I can also program in C, HTML, JavaScript, CSS, Java and Objective C. In Vancouver, I improved my skills in HTML, JavaScript, CSS, PHP, Adobe Illustrator, Adobe Photoshop, C#, Java, Android application development and Objective C in Cornerstone college. <b class="yellow">In total, I have been programming for four years!</b>
@@ -252,21 +252,21 @@
 
 		<div class="container aniview" av-animation="fadeIn">
 			<!-- form information -->
-			<form action="http://formspree.io/hiroshi_tokutomi@yahoo.com" method="POST">
-	    	<label><h4>Name</h4></label>
-	    	<input name="name" type="text" class="form-control" id="name" placeholder="What's your name?"><br/>
-	    	<label><h4>Email</h4></label>
-	    	<input type="email" name="_replyto" class="form-control" placeholder="What's your e-mail?"><br/>
-	    	<label><h4>Message</h4></label>
-	    	<div class="row">
-	    		<div class="col-sm-10">
-	    			<textarea name="body" class="form-control" id="message" placeholder="Message"></textarea>
-	    		</div>
-	    		<div class="col-sm-2">
-	    			<input type="submit" value="Send" id="submitBtn"
-	    			onmouseover="changeBgColor('submitBtn')" onmouseout="changeBgColorBlack('submitBtn')">
-	    		</div>
-	    	</div><hr/>
+			<form action="http://formspree.io/hiroshi_tokutomi@yahoo.com" method="POST" class="formDesign">
+	    		<label><h4>Name</h4></label>
+	    		<input name="name" type="text" class="form-control" id="name" placeholder="What's your name?"><br/>
+	    		<label><h4>Email</h4></label>
+	    		<input type="email" name="_replyto" class="form-control" placeholder="What's your e-mail?"><br/>
+	    		<label><h4>Message</h4></label>
+	    		<div class="row">
+	    			<div class="col-sm-10">
+	    				<textarea name="body" class="form-control" id="message" placeholder="Message"></textarea>
+	    			</div>
+	    			<div class="col-sm-2">
+	    				<input type="submit" value="Send" id="submitBtn"
+	    				onmouseover="changeBgColor('submitBtn')" onmouseout="changeBgColorBlack('submitBtn')">
+	    			</div>
+	    		</div><hr/>
 	    	</form>
 			
 			<!-- my information -->

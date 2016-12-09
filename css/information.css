@@ -5,12 +5,10 @@
 /* Introduction*/
 .head{
 	height: 600px;
-	/*padding-left: 30px;
-	padding-right: 30px;*/
 	background: url(../images/background.jpg);
 	background-repeat: no-repeat;
 	background-position: 50% 0%;
-	/*background-size:contain;*/
+	margin-top: 10px;
 }
 
 .icons ul{
@@ -35,7 +33,7 @@
 }
 
 .bold{
-	color: #cc9900;
+	color: #FCC200;
 	font-size: 60px;
 	text-align: center;
 }
@@ -152,6 +150,11 @@ td{
     right: 0;
 }
 
+.formDesign{
+	margin-right: 100px;
+	margin-left: 100px;
+}
+
 /*--------------------------*/
 /* windows size is smaller	*/
 /*--------------------------*/
@@ -205,12 +208,12 @@ td{
 	}
 
 	.intro{
-		font-size: 18px;
+		font-size: 15px;
 		margin-top: 100px;
 	}
 
 	.bold{
-		font-size: 25px;
+		font-size: 20px;
 	}
 
 	figure img{
@@ -245,6 +248,11 @@ td{
 
 	.contents{
 		font-size: 10px;
+	}
+
+	.formDesign{
+		margin-right: 0px;
+		margin-left: 0px;
 	}
 
 }
