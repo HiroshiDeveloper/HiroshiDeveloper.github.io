@@ -255,4 +255,8 @@ td{
 		margin-left: 0px;
 	}
 
+	.productList li a{
+		font-size: 15px;
+	}
+
 }
