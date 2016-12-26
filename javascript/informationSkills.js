@@ -44,19 +44,19 @@ var chart = AmCharts.makeChart( "chartdiv", {
 		    "litres": 80
 	    },{
 		    "country": "ObjectiveC",
-		    "litres": 80
+		    "litres": 70
 		},{
 		    "country": "Java\nAndroid",
 		    "litres": 100
 		},{
 		    "country": "PHP",
-		    "litres": 50
+		    "litres": 80
 		},{
 		    "country": "Python",
 		    "litres": 100
 		},{
 		    "country": "MySQL\nPostgress",
-		    "litres": 80
+		    "litres": 100
 		} ],
 	"valueAxes": [ {
 		    "axisTitleOffset": 20,
