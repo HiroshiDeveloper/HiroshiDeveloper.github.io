@@ -80,6 +80,10 @@ function showCaption(num){
 			$("#caption label").text("SearchingSystem");
 			$("#caption p").text("This is a web application for saving favorite places. Users can add places where they are at using GPS, and they check the favorite places later. I made this application using Node.js and MongoDB.");
 			break;
+		case 8:
+		$("#caption label").text("BurgerVacation");
+		$("#caption p").text("This is a humburger web site. This allows users to create an own account, and they can check balance and contributions. Users can see the animated seasonal burgers on the site and check menu that is what looks like. Please visit the humburger website!");
+		break;
 	}
 }
 
