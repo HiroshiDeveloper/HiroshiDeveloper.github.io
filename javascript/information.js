@@ -81,9 +81,9 @@ function showCaption(num){
 			$("#caption p").text("This is a web application for saving favorite places. Users can add places where they are at using GPS, and they check the favorite places later. I made this application using Node.js and MongoDB.");
 			break;
 		case 8:
-		$("#caption label").text("BurgerVacation");
-		$("#caption p").text("Here is a website which I have created. It is a hamburger themed website using HTML, CSS, Javascript, PHP and MySQL. The website allows for users to create their own accounts where by they can place orders online as well as check their balance and receive reward points.");
-		break;
+			$("#caption label").text("BurgerVacation");
+			$("#caption p").text("Here is a website which I have created. It is a hamburger themed website using HTML, CSS, Javascript, PHP and MySQL. The website allows for users to create their own accounts where by they can place orders online as well as check their balance and receive reward points.");
+			break;
 	}
 }
 
