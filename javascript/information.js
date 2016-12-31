@@ -82,7 +82,7 @@ function showCaption(num){
 			break;
 		case 8:
 		$("#caption label").text("BurgerVacation");
-		$("#caption p").text("This is a humburger web site. This allows users to create an own account, and they can check balance and contributions. Users can see the animated seasonal burgers on the site and check menu that is what looks like. Please visit the humburger website!");
+		$("#caption p").text("Here is a website which I have created. It is a hamburger themed website using HTML, CSS, Javascript, PHP and MySQL. The website allows for users to create their own accounts where by they can place orders online as well as check their balance and receive reward points.");
 		break;
 	}
 }
