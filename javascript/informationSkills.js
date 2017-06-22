@@ -17,8 +17,11 @@ var chart = AmCharts.makeChart( "chartdiv", {
 	"type": "radar",	
 	"theme": "light",
 	"fontSize" : size,
-	"dataProvider": [ 
+	"dataProvider": [
 		{
+		    "country": "AWS",
+		    "litres": 100
+	    }, {
 		    "country": "HTML",
 		    "litres": 100
 	    }, {
@@ -32,7 +35,7 @@ var chart = AmCharts.makeChart( "chartdiv", {
 		    "litres": 100
 		},{
 		    "country": "C++",
-		    "litres": 60
+		    "litres": 50
 		},{
 		    "country": "C#",
 		    "litres": 40
@@ -47,10 +50,10 @@ var chart = AmCharts.makeChart( "chartdiv", {
 		    "litres": 70
 		},{
 		    "country": "Java\nAndroid",
-		    "litres": 100
+		    "litres": 70
 		},{
 		    "country": "PHP",
-		    "litres": 80
+		    "litres": 100
 		},{
 		    "country": "Python",
 		    "litres": 100
